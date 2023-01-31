@@ -2,12 +2,12 @@ defmodule ConditionalChild.MixProject do
   use Mix.Project
 
   @source_url "https://github.com/TheRealReal/conditional_child"
-  @version "0.1.0"
+  @version "0.1.1"
 
   def project do
     [
       app: :conditional_child,
-      version: "0.1.0",
+      version: @version,
       name: "Conditional Child",
       description:
         "A wrapper for starting and stopping a child process in runtime, based on periodic checks",

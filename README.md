@@ -70,7 +70,7 @@ During initialization, `ConditionalChild` will execute `start_if` and only start
 
 After that, it will execute `start_if` every second, and start/stop the process based on the result. The check interval can be changed if desired.
 
-For more details, see [`ConditionalChild`](https://hexdocs.pm/conditional_child/ConditionalChild.html).
+For more details, see [`ConditionalChild`](https://hexdocs.pm/conditional_child/0.1.1/ConditionalChild.html).
 
 ## Code of Conduct
 
